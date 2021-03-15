@@ -1,4 +1,4 @@
-# The name of this game, is Quest for the Kingdom of Rengekki. (version 2.24)
+# The name of this game, is Quest for the Kingdom of Rengekki. (version 1.15)
 # I hope you enjoy playing, as much as I enjoyed making!
 # -Col
 import time
@@ -102,17 +102,17 @@ def city(items):
         print_pause_2("You seem to recognize him from somewhere.")
         print_pause("“Captain Meliodas?” you say.")
         print_pause("The guard’s eyes light up as he recognizes you.")
-        print_pause('"King. Is that really you?')
+        print_pause('"King. Is that really you?"')
         print_pause_3('"So much has happened since the battle, '
-                      'we all thought you were dead!')
-        print_pause_2('Dyathus the Spider King has taken '
+                      'we all thought you were dead!"')
+        print_pause_2('"Dyathus the Spider King has taken '
                       'the throne in your absence"')
-        print_pause('According to a new law he passed')
-        print_pause_3('anyone who wishes to challenge him for the throne '
-                      'must first prove himself in combat.”')
+        print_pause('"According to a new law he passed"')
+        print_pause_3('"anyone who wishes to challenge him for the throne '
+                      'must first prove himself in combat."')
         print_pause('He hands you an old, rusty sword.')
         print_pause('“Slay the spider, and you may be granted entry, '
-                    'my liege”.')
+                    'my liege.”')
         print_pause("You head back into the field.")
         items.append("sword")
 
